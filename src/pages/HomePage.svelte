@@ -18,7 +18,7 @@
     <p>{t('heroSub')}</p>
     <button class="button" onclick={goToRandomProduct}>🎲 {t('surprise')}</button>
   </div>
-  <div class="hero-art" aria-hidden="true">🛸</div>
+  <div class="hero-art" aria-hidden="true"><span> <img src="photos/arngren_logo.gif" alt="arngrenlogo"> </span></div>
 </section>
 
 <CategoryBar />

@@ -13,8 +13,8 @@
 <header>
   <div class="container bar">
     <a class="logo" href="#/">
-      <span class="logo-icon" aria-hidden="true">🛸</span>
-      {t('siteName')}
+      <span class="logo-icon" aria-hidden="true"> <img src="photos/arngren_logo.gif" alt="arngrenlogo"> </span>
+      <!-- {t('siteName')} -->
     </a>
 
     <!-- Pressing Enter in a form would normally reload the page.
