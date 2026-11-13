@@ -15,7 +15,6 @@
       ·
       <a href="mailto:{email}">{email}</a>
     </p>
-    <p class="note">{t('footerNote')}</p>
   </div>
 </footer>
 

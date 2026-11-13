@@ -71,6 +71,10 @@
     color: #ffffff;
   }
 
+  h1 {
+    white-space: pre-line;
+  }
+
   .hero h1 {
     max-width: 22ch;
     font-size: clamp(1.6rem, 4vw, 2.4rem);

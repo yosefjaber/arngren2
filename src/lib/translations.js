@@ -24,7 +24,7 @@ export const translations = {
     switchToLight: 'Switch to light mode',
 
     // Home page
-    heroTitle: 'Weird and wonderful things, finally easy to find.',
+    heroTitle: 'Huge Selections.\n No returns.',
     heroSub: 'Search, pick a category and add to your cart. No phone call needed.',
     allCategories: 'All',
     categoriesLabel: 'Categories',
