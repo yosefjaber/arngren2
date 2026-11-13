@@ -31,6 +31,7 @@
 <style>
   .tile {
     display: grid;
+    grid-template: minmax(0, 1fr) / minmax(0, 1fr);  /* new */
     place-items: center;
     overflow: hidden;
     border-radius: var(--radius);
@@ -42,7 +43,7 @@
   .tile img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
   }
 
   .small {

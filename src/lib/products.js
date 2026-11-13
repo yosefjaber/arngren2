@@ -576,10 +576,10 @@ export const products = [
     specs: { scale: '1:32', material: 'Die-cast', doors: 'Opening' },
   },
   {
-    id: 'race-sports-car-rc', category: 'kids', emoji: '🏎️', image: 'photos/Race2_Sports_Car-405x214.jpg', price: 399,
-    name: { en: 'Race sports car RC', no: 'Race sportsbil RC' },
-    description: { en: 'A 1:24 scale remote-controlled sports car with rear-wheel drive.', no: 'En 1:24 fjernstyrt sportsbil med bakhjulsdrift.' },
-    specs: { scale: '1:24', drive: 'RWD', battery: 'Rechargeable', age: '6+' },
+    id: 'red-formula-racer', category: 'cars', emoji: '🏎️', image: 'photos/Race2_Sports_Car-405x214.jpg', price: 24990,
+    name: { en: 'Red Formula race car', no: 'Rød Formel-racerbil' },
+    description: { en: 'A red Formula-style race car with front and rear wings and wide rubber tires. A bold eye-catcher for showrooms, events and tracks.', no: 'En rød racerbil i Formel-stil med fram- og bakvinge og brede gummidekk. En blikkfang for utstillinger, arrangementer og baner.' },
+    specs: { seats: '1', speed: kmh('60'), power: '5 kW' },
   },
   {
     id: 'tractor-rideon', category: 'kids', emoji: '🚜', image: 'photos/TRAKTOR-litebilde.1260498571-208x208.jpg', price: 2490,
@@ -866,10 +866,10 @@ export const products = [
     specs: { pages: '12', topic: 'Gimbal', language: { en: 'English', no: 'Engelsk' } },
   },
   {
-    id: 'drone-pilot-camera', category: 'robots', emoji: '🚁', image: 'photos/Dscf0028-696x557.jpg', price: 4990,
-    name: { en: 'Drone with camera and pilot', no: 'Drone med kamera og pilot' },
-    description: { en: 'A red and black camera drone with a 1080p camera and a flight time of approximately 18 minutes.', no: 'En rød og svart kameradrone med 1080p-kamera og flytid på omtrent 18 minutter.' },
-    specs: { channels: '6', camera: '1080p', runtime: '18 min', battery: '11.1 V' },
+    id: 'robot-dogs-silver-black', category: 'robots', emoji: '🤖', image: 'photos/Dscf0028-696x557.jpg', price: 3990,
+    name: { en: 'Robot dogs, silver and black', no: 'Robothunder, sølv og svart' },
+    description: { en: 'Two robot dogs, one silver and one black, each with a movable head and jointed legs.', no: 'To robothunder, en sølvfarget og en svart, med bevegelig hode og leddede ben.' },
+    specs: { pieces: '2', battery: 'Rechargeable' },
   },
   {
     id: 'esky-rc-helicopter', category: 'robots', emoji: '🚁', image: 'photos/EKO.eco7_tb2_p3-307x221.jpg', price: 890,
