@@ -3,8 +3,8 @@
 
   // The original shop takes orders by phone and email, so we keep that as an
   // option. These are PLACEHOLDERS. Put the real contact details here.
-  const phone = '+47 000 00 000';
-  const email = 'post@example.com';
+  const phone = '47-22149166';
+  const email = 'frithjof@arngren.net';
 </script>
 
 <footer>
