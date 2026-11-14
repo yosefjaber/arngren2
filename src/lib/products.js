@@ -220,12 +220,6 @@ export const products = [
     specs: { engine: '300 cc', speed: kmh('70'), gears: '5', towing: '250 kg' },
   },
   {
-    id: 'quad-blue-110', category: 'cars', emoji: '🏍️', image: 'photos/ATV-EEC-2000x1799.jpg', price: 24990,
-    name: { en: 'Blue 110 quad', no: 'Blå 110-kvad' },
-    description: { en: 'A blue 110 cc quad with a four-speed gearbox, electric start and a speed limiter for inexperienced riders.', no: 'En blå 110 cm³ kvad med firetrinns girkasse, elektrisk start og hastighetsbegrenser for uerfarne førere.' },
-    specs: { engine: '110 cc', speed: kmh('50'), gears: '4', start: 'Electric' },
-  },
-  {
     id: 'quad-yellow-250', category: 'cars', emoji: '🏍️', image: 'photos/ATV-NY.DSC06918-1250x937.jpg', price: 44990,
     name: { en: 'Yellow 250 quad', no: 'Gul 250-kvad' },
     description: { en: 'A yellow 250 cc quad with a five-speed gearbox, electric start and a top speed of approximately 70 km/h.', no: 'En gul 250 cm³ kvad med femtrinns girkasse, elektrisk start og toppfart på omtrent 70 km/t.' },
@@ -728,12 +722,6 @@ export const products = [
     specs: { channels: '3', wingspan: '80 cm', battery: '7.4 V', runtime: '10 min' },
   },
   {
-    id: 'rc-seaplane-white', category: 'robots', emoji: '✈️', image: 'photos/Baat-Fly.Pic.684-441x331.jpg', price: 1590,
-    name: { en: 'White and red RC seaplane', no: 'Hvitt og rødt RC-sjøfly' },
-    description: { en: 'A white and red three-channel seaplane with a 90 cm wingspan and a spare propeller.', no: 'Et hvitt og rødt trekanals sjøfly med 90 cm vingespenn og reservepropell.' },
-    specs: { channels: '3', wingspan: '90 cm', battery: '7.4 V', spare: 'Propeller' },
-  },
-  {
     id: 'rc-stunt-car-set', category: 'robots', emoji: '🚗', image: 'photos/Bil-stunt.cars1es-479x330.jpg', price: 599,
     name: { en: 'RC stunt car set', no: 'RC-stuntbilsett' },
     description: { en: 'A 1:16 four-wheel-drive stunt car capable of flips and spins, with an integrated music player.', no: 'En 1:16 firehjulsdrevet stuntbil som kan snu og spinne, med innebygd musikkavspiller.' },
@@ -788,54 +776,6 @@ export const products = [
     specs: { cells: '3S', capacity: '2200 mAh', voltage: '11.1 V', plugs: 'XT60' },
   },
   {
-    id: 'drone-manual-overview', category: 'robots', emoji: '📘', image: 'photos/DROne-1-20141225162036_10889-910x873.jpg', price: null,
-    name: { en: 'Drone manual, overview page', no: 'Dronehåndbok, oversiktsside' },
-    description: { en: 'The overview section of the drone manual, covering switches, indicator lights and aircraft layout.', no: 'Oversiktsdelen av dronehåndboken, med brytere, kontrollamper og fartøyets oppbygning.' },
-    specs: { pages: '48', language: { en: 'English', no: 'Engelsk' }, format: 'A5' },
-  },
-  {
-    id: 'drone-manual-flight-modes', category: 'robots', emoji: '📘', image: 'photos/DROne-1-20141225162036_12239-916x1135.jpg', price: null,
-    name: { en: 'Drone manual, flight modes', no: 'Dronehåndbok, flymoduser' },
-    description: { en: 'A manual page describing GPS, attitude and manual flight modes.', no: 'En håndbokside som beskriver GPS-, attitude- og manuell flymodus.' },
-    specs: { pages: '48', topic: 'Flight modes', language: { en: 'English', no: 'Engelsk' } },
-  },
-  {
-    id: 'drone-manual-map', category: 'robots', emoji: '📘', image: 'photos/DROne-1-20141225162036_16338-910x941.jpg', price: null,
-    name: { en: 'Drone manual, map page', no: 'Dronehåndbok, kartside' },
-    description: { en: 'A manual page explaining how to set a home point and a flight boundary on the map.', no: 'En håndbokside som forklarer hvordan man setter hjempunkt og flygrense på kartet.' },
-    specs: { pages: '48', topic: 'GPS map', language: { en: 'English', no: 'Engelsk' } },
-  },
-  {
-    id: 'drone-manual-transmitter', category: 'robots', emoji: '📘', image: 'photos/DROne-1-20141225162036_19963-915x776.jpg', price: null,
-    name: { en: 'Drone manual, transmitter page', no: 'Dronehåndbok, senderside' },
-    description: { en: 'A labelled diagram of the transmitter controls and their functions.', no: 'Et navngitt diagram av senderens kontroller og funksjoner.' },
-    specs: { pages: '48', topic: 'Transmitter', language: { en: 'English', no: 'Engelsk' } },
-  },
-  {
-    id: 'drone-manual-camera', category: 'robots', emoji: '📘', image: 'photos/DROne-1-20141225162036_36419-907x987.jpg', price: null,
-    name: { en: 'Drone manual, camera page', no: 'Dronehåndbok, kameraside' },
-    description: { en: 'A manual page covering camera mounting, alignment and basic settings.', no: 'En håndbokside om kameramontering, innretting og grunnleggende innstillinger.' },
-    specs: { pages: '48', topic: 'Camera', language: { en: 'English', no: 'Engelsk' } },
-  },
-  {
-    id: 'drone-manual-flight-basics', category: 'robots', emoji: '📘', image: 'photos/DROne-1-20141225162036_39132-911x763.jpg', price: null,
-    name: { en: 'Drone manual, flight basics', no: 'Dronehåndbok, flygrunnlag' },
-    description: { en: 'The flight basics section, covering take-off, hover, turns and landing.', no: 'Delen om grunnleggende flyging, med letting, hover, svinger og landing.' },
-    specs: { pages: '48', topic: 'Flight basics', language: { en: 'English', no: 'Engelsk' } },
-  },
-  {
-    id: 'drone-manual-diagram', category: 'robots', emoji: '📘', image: 'photos/DROne-1-20141225162036_54973-910x325.jpg', price: null,
-    name: { en: 'Drone manual, parts diagram', no: 'Dronehåndbok, delediagram' },
-    description: { en: 'A parts diagram showing motors, arms, landing gear and fastener locations.', no: 'Et delediagram som viser motorer, armer, landingsunderstell og festepunkter.' },
-    specs: { pages: '48', topic: 'Parts', language: { en: 'English', no: 'Engelsk' } },
-  },
-  {
-    id: 'drone-spec-sheet', category: 'robots', emoji: '📄', image: 'photos/DROne-20141225162156_69296-918x348.jpg', price: null,
-    name: { en: 'Drone specification sheet', no: 'Dronespesifikasjoner' },
-    description: { en: 'A two-page specification sheet listing weight, range, battery, camera and operating limits.', no: 'Et tosiders spesifikasjonsark med vekt, rekkevidde, batteri, kamera og driftsgrenser.' },
-    specs: { pages: '2', topic: 'Specifications', language: { en: 'English', no: 'Engelsk' } },
-  },
-  {
     id: 'quadcopter-black', category: 'robots', emoji: '🚁', image: 'photos/DROne-71mr-ylmr2L__SL1500_-600x600.jpg', price: 3990,
     name: { en: 'Black quadcopter', no: 'Svart quadcopter' },
     description: { en: 'A black six-channel quadcopter with a gimbal mount and a programmable transmitter.', no: 'En svart sekskanals quadcopter med gimbal-feste og programmerbar sender.' },
@@ -858,12 +798,6 @@ export const products = [
     name: { en: 'Drone flight map', no: 'Droneflykart' },
     description: { en: 'A printed map page for flight planning, with home point and restricted-zone markings.', no: 'En trykt kartside for flyplanlegging, med hjempunkt og markerte restriksjonssoner.' },
     specs: { topic: 'Navigation', format: 'A5', language: { en: 'English', no: 'Engelsk' } },
-  },
-  {
-    id: 'drone-gimbal-manual', category: 'robots', emoji: '📘', image: 'photos/Drove-20150123135125_47128-602x764.jpg', price: null,
-    name: { en: 'Drone gimbal manual', no: 'Drone-gimbal-håndbok' },
-    description: { en: 'A 12-page guide to removing, transporting and refitting the camera gimbal.', no: 'En 12-siders guide for å demontere, transportere og montere kameragimbalen på nytt.' },
-    specs: { pages: '12', topic: 'Gimbal', language: { en: 'English', no: 'Engelsk' } },
   },
   {
     id: 'robot-dogs-silver-black', category: 'robots', emoji: '🤖', image: 'photos/Dscf0028-696x557.jpg', price: 3990,
