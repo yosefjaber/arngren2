@@ -10,6 +10,7 @@
   import ProductPage from './pages/ProductPage.svelte';
   import CartPage from './pages/CartPage.svelte';
   import ThanksPage from './pages/ThanksPage.svelte';
+  import AboutPage from './pages/AboutPage.svelte';
 
   // $effect runs once at the start, and again whenever a value it reads changes.
   // Here it copies our dark-mode and language choices onto the <html> tag:
@@ -31,6 +32,8 @@
     <CartPage />
   {:else if route.page === 'thanks' && store.lastOrder}
     <ThanksPage />
+  {:else if route.page === 'about'}
+    <AboutPage />
   {:else}
     <HomePage />
   {/if}

@@ -226,18 +226,6 @@ export const products = [
     specs: { engine: '250 cc', speed: kmh('70'), gears: '5', start: 'Electric' },
   },
   {
-    id: 'quad-yellow-front', category: 'cars', emoji: '🏍️', image: 'photos/ATV-NY.DSC06922-1050x787.jpg', price: 44990,
-    name: { en: 'Yellow quad, front view', no: 'Gul kvad, front' },
-    description: { en: 'Front view of the yellow 250 cc quad, showing the twin headlights and the front bumper.', no: 'Frontbilde av den gule 250 cm³ kvaden, med to frontlykter og frontstøtfanger.' },
-    specs: { engine: '250 cc', speed: kmh('70'), gears: '5', lights: 'LED' },
-  },
-  {
-    id: 'quad-yellow-side', category: 'cars', emoji: '🏍️', image: 'photos/ATV-NY.DSC06923-950x712.jpg', price: 43990,
-    name: { en: 'Yellow quad, side view', no: 'Gul kvad, side' },
-    description: { en: 'Side view of the yellow 250 cc quad, showing the long seat and the rear cargo rack.', no: 'Sidebilde av den gule 250 cm³ kvaden, med lang sal og bakre lasterack.' },
-    specs: { engine: '250 cc', speed: kmh('70'), gears: '5', rack: 'Rear' },
-  },
-  {
     id: 'quad-electric-cargo', category: 'cars', emoji: '🏍️', image: 'photos/ATV.2_Wheel_Motors_Drive_Electric_ATV-646x500.jpg', price: 49990,
     name: { en: 'Electric cargo quad', no: 'Elektrisk lastkvad' },
     description: { en: 'A two-wheel-drive electric quad with a 3000 W motor, a cargo box and a range of approximately 60 km.', no: 'En tohjulsdrevet elektrisk kvad med 3000 W motor, lasteboks og rekkevidde på omtrent 60 km.' },
@@ -346,30 +334,6 @@ export const products = [
     specs: { engine: '800 cc', seats: '4', speed: kmh('90'), drive: 'RWD' },
   },
   {
-    id: 'buggy-camo-four-seat-b', category: 'cars', emoji: '🏎️', image: 'photos/DSC03938-510x383.jpg', price: 109990,
-    name: { en: 'Camo buggy, trail view', no: 'Kamuflasjebuggy, på stien' },
-    description: { en: 'The four-seat camo buggy photographed on a wet forest trail.', no: 'Den fireseters kamuflasjebuggyen fotografert på en våt skogssti.' },
-    specs: { engine: '800 cc', seats: '4', speed: kmh('90'), drive: 'RWD' },
-  },
-  {
-    id: 'buggy-camo-four-seat-c', category: 'cars', emoji: '🏎️', image: 'photos/DSC03939-545x409.jpg', price: 109990,
-    name: { en: 'Camo buggy, side view', no: 'Kamuflasjebuggy, side' },
-    description: { en: 'Side view of the four-seat buggy, showing the wheelbase and the off-road tyres.', no: 'Sidebilde av fireseteren, med akselavstand og offroad-dekk.' },
-    specs: { engine: '800 cc', seats: '4', speed: kmh('90'), tyres: 'Off-road' },
-  },
-  {
-    id: 'buggy-camo-four-seat-d', category: 'cars', emoji: '🏎️', image: 'photos/DSC03940-510x382.jpg', price: 109990,
-    name: { en: 'Camo buggy, rear view', no: 'Kamuflasjebuggy, bak' },
-    description: { en: 'Rear view of the four-seat buggy with the spare wheel and tow point.', no: 'Bakfra på fireseteren, med reservehjul og slepepunkt.' },
-    specs: { engine: '800 cc', seats: '4', speed: kmh('90'), spare: 'Yes' },
-  },
-  {
-    id: 'buggy-camo-four-seat-e', category: 'cars', emoji: '🏎️', image: 'photos/DSC03941-509x381.jpg', price: 109990,
-    name: { en: 'Camo buggy, front view', no: 'Kamuflasjebuggy, front' },
-    description: { en: 'Front view of the four-seat buggy with an LED light bar and a wide track.', no: 'Frontbilde av fireseteren med LED-lyslist og bred sporvidde.' },
-    specs: { engine: '800 cc', seats: '4', speed: kmh('90'), lights: 'LED bar' },
-  },
-  {
     id: 'porsche-911-silver', category: 'cars', emoji: '🏎️', image: 'photos/EL-porsche.LamoTitle019-1500x1004.jpg', price: 899000,
     name: { en: 'Silver Porsche 911', no: 'Sølv Porsche 911' },
     description: { en: 'A silver Porsche 911 coupe with a 3.6-litre engine and rear-wheel drive.', no: 'En sølv Porsche 911 coupe med 3,6-liters motor og bakhjulsdrift.' },
@@ -422,12 +386,6 @@ export const products = [
     name: { en: 'Black Comarth electric car', no: 'Svart Comarth elbil' },
     description: { en: 'A black Comarth electric city car with two seats, a 13 kW motor and a range of approximately 120 km.', no: 'En svart Comarth elektrisk bybil med to seter, 13 kW motor og rekkevidde på omtrent 120 km.' },
     specs: { seats: '2', range: '120 km', speed: kmh('90'), power: '13 kW' },
-  },
-  {
-    id: 'comarth-black-two', category: 'cars', emoji: '🚗', image: 'photos/comarth-sort-sh-4-1221x743.jpg', price: 189000,
-    name: { en: 'Black Comarth, rear view', no: 'Svart Comarth, bak' },
-    description: { en: 'Rear view of the black Comarth, showing the hatchback boot and the vehicle dimensions.', no: 'Bakfra på den svarte Comarthen, med hengslet bakluke og bilens mål.' },
-    specs: { seats: '2', range: '120 km', speed: kmh('90'), boot: '210 L' },
   },
   {
     id: 'comarth-white-red', category: 'cars', emoji: '🚗', image: 'photos/elbil-comarth.10-363x272.jpg', price: 179000,
@@ -710,12 +668,6 @@ export const products = [
     specs: { channels: '3', wingspan: '80 cm', battery: '7.4 V', runtime: '10 min' },
   },
   {
-    id: 'rc-seaplane-red-two', category: 'robots', emoji: '✈️', image: 'photos/Baat-Fly.Pic.680-407x305.jpg', price: 1490,
-    name: { en: 'Red RC seaplane, side view', no: 'Rødt RC-sjøfly, side' },
-    description: { en: 'Side view of the red seaplane, showing the propeller and the floats.', no: 'Sidebilde av det røde sjøflyet, med propell og pontonger.' },
-    specs: { channels: '3', wingspan: '80 cm', battery: '7.4 V', floats: 'Yes' },
-  },
-  {
     id: 'rc-seaplane-water', category: 'robots', emoji: '✈️', image: 'photos/Baat-Fly.Pic.682-443x332.jpg', price: 1590,
     name: { en: 'RC seaplane on the water', no: 'RC-sjøfly på vannet' },
     description: { en: 'The radio-controlled seaplane resting on calm water before take-off.', no: 'Det radiostyrte sjøflyet på stille vann før letting.' },
@@ -794,12 +746,6 @@ export const products = [
     specs: { channels: '6', range: '800 m', runtime: '20 min', camera: '1080p' },
   },
   {
-    id: 'drone-flight-map-page', category: 'robots', emoji: '🗺️', image: 'photos/DrOnE-20141225162036_16338-398x413.jpg', price: null,
-    name: { en: 'Drone flight map', no: 'Droneflykart' },
-    description: { en: 'A printed map page for flight planning, with home point and restricted-zone markings.', no: 'En trykt kartside for flyplanlegging, med hjempunkt og markerte restriksjonssoner.' },
-    specs: { topic: 'Navigation', format: 'A5', language: { en: 'English', no: 'Engelsk' } },
-  },
-  {
     id: 'robot-dogs-silver-black', category: 'robots', emoji: '🤖', image: 'photos/Dscf0028-696x557.jpg', price: 3990,
     name: { en: 'Robot dogs, silver and black', no: 'Robothunder, sølv og svart' },
     description: { en: 'Two robot dogs, one silver and one black, each with a movable head and jointed legs.', no: 'To robothunder, en sølvfarget og en svart, med bevegelig hode og leddede ben.' },
@@ -876,12 +822,6 @@ export const products = [
     name: { en: 'QRX350 Pro with transmitter', no: 'QRX350 Pro med sender' },
     description: { en: 'The complete QRX350 Pro set with transmitter, propeller guards, battery and manual.', no: 'Det komplette QRX350 Pro-settet med sender, propellbeskyttelse, batteri og manual.' },
     specs: { channels: '6', range: '500 m', runtime: '15 min', guards: 'Included' },
-  },
-  {
-    id: 'rc-car-instruction-sheet', category: 'robots', emoji: '📄', image: 'photos/RC-6.20130912114710_43947-682x358.jpg', price: null,
-    name: { en: 'RC car instruction sheet', no: 'RC-bil bruksanvisning' },
-    description: { en: 'An exploded-view assembly sheet for the RC car, listing each part by number.', no: 'Et monteringsark med sprengskisse for RC-bilen, der hver del er nummerert.' },
-    specs: { topic: 'Assembly', language: { en: 'English', no: 'Engelsk' }, format: 'A3' },
   },
   {
     id: 'scout-x4-white', category: 'robots', emoji: '🚁', image: 'photos/Scout_X4-white-1445x991.jpg', price: 4990,
@@ -1336,12 +1276,6 @@ export const products = [
     name: { en: 'Large rechargeable spotlight', no: 'Stor oppladbar spotlight' },
     description: { en: 'A large rechargeable spotlight with 2000 lumens, a carry handle and a six-hour runtime.', no: 'En stor oppladbar spotlight med 2000 lumen, bærehåndtak og seks timers driftstid.' },
     specs: { lumens: '2000', battery: 'Rechargeable', runtime: '6 h', range: '500 m' },
-  },
-  {
-    id: 'large-spotlight-two', category: 'weird', emoji: '🔦', image: 'photos/LYKT.TL1079-3-625x469.jpg', price: 599,
-    name: { en: 'Large spotlight, side view', no: 'Stor spotlight, side' },
-    description: { en: 'The same 2000-lumen spotlight shown from the side, with charging port and folding stand.', no: 'Samme 2000-lumen spotlight fra siden, med ladeport og sammenleggbart stativ.' },
-    specs: { lumens: '2000', battery: 'Rechargeable', runtime: '6 h', stand: 'Foldable' },
   },
   {
     id: 'searchlight-10-mile', category: 'weird', emoji: '🔦', image: 'photos/Lykt-stor-10mil.2940RF-521x391.jpg', price: 899,

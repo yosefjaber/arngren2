@@ -242,6 +242,8 @@ function updateRoute() {
     route.page = 'cart';
   } else if (page === 'thanks') {
     route.page = 'thanks';
+  } else if (page === 'about') {
+    route.page = 'about';
   } else {
     route.page = 'home';
   }
