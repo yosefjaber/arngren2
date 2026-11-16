@@ -1,13 +1,18 @@
 <script>
-  // The header is on every page: logo, search, language, dark mode and cart.
+  // The header is on every page: logo, menu, search, language, dark mode and cart.
 
-  import { store, t, cartCount } from '../lib/store.svelte.js';
+  import { store, route, t, cartCount } from '../lib/store.svelte.js';
 
   // Runs every time the visitor types in the search box.
   function onSearchInput() {
     store.category = 'all'; // search looks in ALL products, not just one category
     location.hash = '#/'; // and make sure we are on the page that shows the results
   }
+
+  // Which menu link is the current page? (Used to highlight it.)
+  // The shop covers the home page AND the product pages.
+  let inShop = $derived(route.page === 'home' || route.page === 'product');
+  let inAbout = $derived(route.page === 'about');
 </script>
 
 <header>
@@ -16,6 +21,12 @@
       <span class="logo-icon" aria-hidden="true"> <img src="photos/arngren_logo.gif" alt="arngrenlogo"> </span>
       <!-- {t('siteName')} -->
     </a>
+
+    <!-- The menu. aria-current="page" tells screen readers which link is the current page,
+         and we also use it in the CSS below to highlight that link. -->
+    <nav class="menu" aria-label={t('mainMenu')}>
+      <a href="#/about" aria-current={inAbout ? 'page' : undefined}>{t('aboutLink')}</a>
+    </nav>
 
     <!-- Pressing Enter in a form would normally reload the page.
          preventDefault() stops that. The results already update as you type. -->
@@ -67,7 +78,7 @@
     border-bottom: 3px solid var(--accent);
   }
 
-  /* On a phone the header is two rows tall, so it scrolls away with the page
+  /* On a phone the header is three rows tall, so it scrolls away with the page
      (it would take up too much of the small screen). On a wider screen it is
      one row, so it can stay at the top while you scroll. */
   @media (min-width: 800px) {
@@ -101,7 +112,37 @@
     font-size: 1.8rem;
   }
 
-  /* On a phone: logo and buttons on the first row, search box on the second row. */
+  /* THE MENU: two pill-shaped links.
+     - normal:  navy text
+     - hover:   a soft background appears
+     - current: filled pill (navy background, page color text) */
+  .menu {
+    display: flex;
+    gap: 0.3rem;
+  }
+
+  .menu a {
+    padding: 0.45em 1em;
+    border-radius: 999px;
+    color: var(--navy);
+    font-weight: 700;
+    text-decoration: none;
+    transition: background 0.15s;
+  }
+
+  .menu a:hover {
+    background: var(--bg);
+  }
+
+  .menu a[aria-current='page'] {
+    background: var(--navy);
+    color: var(--surface);
+  }
+
+  /* On a phone, from top to bottom:
+       row 1: logo and buttons
+       row 2: menu
+       row 3: search box */
   .actions {
     order: 2;
     margin-left: auto;
@@ -109,8 +150,13 @@
     gap: 0.5rem;
   }
 
-  .search {
+  .menu {
     order: 3;
+    flex-basis: 100%;
+  }
+
+  .search {
+    order: 4;
     flex-basis: 100%;
   }
 
@@ -119,8 +165,14 @@
     border-radius: 999px;
   }
 
-  /* On a wider screen: everything on one row, with the search box in the middle. */
+  /* On a wider screen: everything on one row.
+     logo, menu, search box (takes the leftover space), buttons. */
   @media (min-width: 800px) {
+    .menu {
+      order: 1;
+      flex-basis: auto;
+    }
+
     .search {
       order: 2;
       flex: 1;
