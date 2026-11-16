@@ -45,12 +45,20 @@
     <div class="actions">
       <!-- Language: the button shows the language you can switch TO -->
       <button
-        class="button"
+        class="button cart-btn"
         onclick={() => (store.lang = store.lang === 'en' ? 'no' : 'en')}
         aria-label={t('switchLanguage')}
       >
         🌐 {store.lang === 'en' ? 'Norsk' : 'English'}
       </button>
+
+      <!-- Cart. The red number only shows when the cart is not empty. -->
+      <a class="button primary cart-btn" href="#/cart">
+        🛒 {t('cart')}
+        {#if cartCount() > 0}
+          <span class="badge">{cartCount()}</span>
+        {/if}
+      </a>
 
       <!-- Dark mode -->
       <button
@@ -60,14 +68,6 @@
       >
         {store.dark ? '☀️' : '🌙'}
       </button>
-
-      <!-- Cart. The red number only shows when the cart is not empty. -->
-      <a class="button primary" href="#/cart">
-        🛒 {t('cart')}
-        {#if cartCount() > 0}
-          <span class="badge">{cartCount()}</span>
-        {/if}
-      </a>
     </div>
   </div>
 </header>
@@ -193,5 +193,15 @@
     color: var(--accent);
     font-size: 0.9em;
     text-align: center;
+  }
+
+  .cart-btn {
+    width: 9rem; /* fixed length; adjust to taste */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    white-space: nowrap;
+    box-sizing: border-box;
   }
 </style>
