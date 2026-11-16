@@ -235,7 +235,7 @@ export const translations = {
     // Footer
     footerContact: 'Prefer to order by phone or email?',
     footerNote: 'A student redesign of arngren.net. This is not the real shop.',
-    aboutLink: 'About Link'
+    aboutLink: 'About Us'
   },
 
   no: {
@@ -460,6 +460,6 @@ export const translations = {
     // Footer
     footerContact: 'Vil du heller bestille på telefon eller e-post?',
     footerNote: 'En redesign av arngren.net laget som skoleprosjekt. Dette er ikke den ekte butikken.',
-    aboutLink: 'About Link'
+    aboutLink: 'About Us'
   },
 };
