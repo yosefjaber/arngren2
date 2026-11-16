@@ -15,7 +15,6 @@
       ·
       <a href="mailto:{email}">{email}</a>
     </p>
-    <p><a href="#/about">{t('aboutLink')}</a></p>
   </div>
 </footer>
 
