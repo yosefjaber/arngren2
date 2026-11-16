@@ -25,7 +25,7 @@
     <!-- The menu. aria-current="page" tells screen readers which link is the current page,
          and we also use it in the CSS below to highlight that link. -->
     <nav class="menu" aria-label={t('mainMenu')}>
-      <a href="#/about" aria-current={inAbout ? 'page' : undefined}>{t('aboutLink')}</a>
+      <a href={inAbout ? '#/' : '#/about'} aria-current={inAbout ? 'page' : undefined} class="pageChange">  {inAbout ? t('homeLink') : t('aboutLink')} </a>
     </nav>
 
     <!-- Pressing Enter in a form would normally reload the page.
@@ -119,6 +119,7 @@
   .menu {
     display: flex;
     gap: 0.3rem;
+    text-align: center;
   }
 
   .menu a {
@@ -203,5 +204,9 @@
     gap: 0.4rem;
     white-space: nowrap;
     box-sizing: border-box;
+  }
+
+  .pageChange {
+    width: 7rem;
   }
 </style>
