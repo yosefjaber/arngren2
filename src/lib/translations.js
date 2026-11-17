@@ -229,7 +229,7 @@ export const translations = {
     // Thank-you page
     thanksTitle: 'Thank you, {name}!',
     orderNumber: 'Order number: {number}',
-    thanksBody: 'In the real shop, a confirmation would be sent to {email}.',
+    thanksBody: 'A confirmation has been sent to {email}.',
     continueShopping: 'Continue shopping',
 
     // Footer
