@@ -30,20 +30,28 @@ Must be stated that the norweigan language translation was done with claude so i
 
 The original website had no cart. Customers had to order through phone or email which adds time and frustration to the whole process. To make the user experience more pleasent we have added a cart. When visiting a product page you can add the item to the cart and then go to the cart page and checkout.
 
-![alt text](image-4.png)
-Add item to cart
+![alt text](image-4.png)\
+*Add item to cart*
 
-![alt text](image-5.png)
-Checkout
+![alt text](image-5.png)\
+*Check out*
+
+![alt text](image-6.png)\
+*Checked out*
 
 ### About Page
+The About page keeps the personality of the original shop. It tells the story of Frithjof Arngren and his journey in building the hoverpod, a flying seated vehicle.
+
 
 ## Redesign
 
 ### Home/Store Page
 
-### Product Page
 
+### Product Page
+For the home page, we replaced the original’s hundreds of absolutely placed boxes, which had no order and made the page wider than the screen, with one clear structure: a header, an intro, a category bar, a product grid and a footer. It is built with CSS grid and flexbox, so it reflows from one column on a phone to several on a desktop. Products that were once shown in different sizes and styles now share a single card with a photo, name, price and an Add to cart button. Where the original had no search, there is now a search box in the header that filters as you type. The fonts and colors that used to change from box to box are now one font, three text sizes and a small palette of Norwegian flag red and navy.
+
+The page also has a few extras. Surprise me button opens a random product, a nod to the original, where you never know what you will find. The category bar shows how many products are in each category, and a sort menu offers Featured, price low to high and price high to low. If nothing matches a search, a friendly empty state appears with a Clear search button.
 
 # Critique and redesign exploration
 
