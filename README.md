@@ -30,20 +30,30 @@ Must be stated that the norweigan language translation was done with claude so i
 
 The original website had no cart. Customers had to order through phone or email which adds time and frustration to the whole process. To make the user experience more pleasent we have added a cart. When visiting a product page you can add the item to the cart and then go to the cart page and checkout.
 
-![alt text](image-4.png)
-Add item to cart
+![alt text](image-4.png)\
+*Add item to cart*
 
-![alt text](image-5.png)
-Checkout
+![alt text](image-5.png)\
+*Check out*
+
+![alt text](image-6.png)\
+*Checked out*
 
 ### About Page
+The About page keeps the personality of the original shop. It tells the story of Frithjof Arngren and his journey in building the hoverpod, a flying seated vehicle.
+
 
 ## Redesign
 
 ### Home/Store Page
 
+For the home page, we replaced the original’s hundreds of absolutely placed boxes, which had no order and made the page wider than the screen, with one clear structure: a header, an intro, a category bar, a product grid and a footer. It is built with CSS grid and flexbox, so it reflows from one column on a phone to several on a desktop. Products that were once shown in different sizes and styles now share a single card with a photo, name, price and an Add to cart button. Where the original had no search, there is now a search box in the header that filters as you type. The fonts and colors that used to change from box to box are now one font, three text sizes and a small palette of Norwegian flag red and navy.
+
+The page also has a few extras. Surprise me button opens a random product, a nod to the original, where you never know what you will find. The category bar shows how many products are in each category, and a sort menu offers Featured, price low to high and price high to low. If nothing matches a search, a friendly empty state appears with a Clear search button.
+
 ### Product Page
 
+On the original site, product information was buried in long blocks of text, with the details in a different place on every page. Every product page now has the same layout: a large photo, then the category, name, price and description, a large `Add to cart` button and a Specifications table. The original also mixed languages on the same page. Now the interface, the product text and the labels in the specifications table all follow the chosen language, so “Battery” becomes “Batteri” in Norwegian. The original was also very confusing on how to get back to the original website where as here we have a `Back to the shop` button in the same place for each product page.
 
 # Critique and redesign exploration
 
@@ -53,7 +63,35 @@ Checkout
 
 ## Redesign research, data, planning
 
-### 1) Time and Error Study
+### 1) Performance Metric - Time and Error Study
+
+We asked four people, Jeremy Muglia, Moazzam Nafees, Gavin Amshoff and Raphael Ebdon (they agreed to have their names listed), to find information on one e-bike and one toy RC vehicle. We repeated this on three websites: arngren.net, ebay.com and our redesign. Times are in minutes:seconds, and DNF means the person did not finish. These are our results.
+
+| Test Subject | arngren.net | ebay.com | redesigned arngren.net |
+| :--- | :--- | :--- | :--- |
+| Jeremy Muglia | 4:09 | 0:13 | 0:14 |
+| Moazzam Nafees | 3:18 | 0:28 | 0:12 |
+| Gavin Amshoff | DNF | 0:24 | 0:25 |
+| Raphael Ebdon | 2:32 | 0:21 | 0:30 |
+| **Average** | 3:20 (3 of 4 finished) | 0:22 | 0:20 |
+
+#### arngren.net Takeaways
+
+For arngren.net, most people clicked around aimlessly until they found one of each. One user tried to use a search box they found, but it took forever to load and ultimately crashed the website. Another user left the experiment out of frustration.
+
+#### eBay Takeaways
+
+All users used the search box on ebay.com. It was an easy and quick way to search for both "ebikes" and "RC vehicles", and it turned out to be effective.
+
+#### Redesigned arngren.net Takeaways
+
+Two users used the quick filters to look for `Electric Bikes` and `Robots & RC`. This turned out to be an effective way to quickly find items that users already intend to look for.
+
+![Quick filter buttons on the redesigned site](image-7.png)
+
+The other two users tried the search box, but our search matches the words in a product's name and description. None of the e-bikes has "ebike" in its name (they are called things like "FreeGo Fat Bike 1000 W"), so nothing showed up. Those users then switched to the quick filters. For "RC", the search did match the RC vehicles correctly.
+
+
 
 ### 2) Jakob's Ten Usability Heuristics
 

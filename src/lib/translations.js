@@ -24,8 +24,8 @@ export const translations = {
     switchToLight: 'Switch to light mode',
 
     // Home page
-    heroTitle: 'Huge Selections.\n No returns.',
-    heroSub: 'Search, pick a category and add to your cart. No phone call needed.',
+    heroTitle: 'Huge Selections.\n Huge Deals.',
+    heroSub: 'Search, pick a category and add to your cart. No phone call needed. (This is a fake demo website)',
     allCategories: 'All',
     categoriesLabel: 'Categories',
     sortLabel: 'Sort by',
@@ -233,7 +233,7 @@ export const translations = {
     continueShopping: 'Continue shopping',
 
     // Footer
-    footerContact: 'Prefer to order by phone or email?',
+    footerContact: 'Prefer to order by phone or email? (This is a fake demo website)',
     footerNote: 'A student redesign of arngren.net. This is not the real shop.',
     aboutLink: 'About Us',
     homeLink: 'Home'
@@ -250,8 +250,8 @@ export const translations = {
     switchToLight: 'Bytt til lys modus',
 
     // Home page
-    heroTitle: 'Rare og flotte ting, endelig lett å finne.',
-    heroSub: 'Søk, velg en kategori og legg i handlekurven. Ingen telefonsamtale nødvendig.',
+    heroTitle: 'Enormt utvalg.\nIngen retur.',
+    heroSub: 'Søk, velg en kategori og legg i handlekurven. Ingen telefonsamtale nødvendig. (Dette er en falsk demo-nettside)',
     allCategories: 'Alle',
     categoriesLabel: 'Kategorier',
     sortLabel: 'Sorter etter',
@@ -455,11 +455,11 @@ export const translations = {
     // Thank-you page
     thanksTitle: 'Takk, {name}!',
     orderNumber: 'Bestillingsnummer: {number}',
-    thanksBody: 'I den ekte butikken ville en bekreftelse blitt sendt til {email}.',
+    thanksBody: 'En bekreftelse er sendt til {email}.',
     continueShopping: 'Fortsett å handle',
 
     // Footer
-    footerContact: 'Vil du heller bestille på telefon eller e-post?',
+    footerContact: 'Vil du heller bestille på telefon eller e-post? (Dette er en falsk demo-nettside)',
     footerNote: 'En redesign av arngren.net laget som skoleprosjekt. Dette er ikke den ekte butikken.',
     aboutLink: 'Om oss',
     homeLink: 'Hjem',
