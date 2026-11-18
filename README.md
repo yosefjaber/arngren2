@@ -47,11 +47,13 @@ The About page keeps the personality of the original shop. It tells the story of
 
 ### Home/Store Page
 
-
-### Product Page
 For the home page, we replaced the original’s hundreds of absolutely placed boxes, which had no order and made the page wider than the screen, with one clear structure: a header, an intro, a category bar, a product grid and a footer. It is built with CSS grid and flexbox, so it reflows from one column on a phone to several on a desktop. Products that were once shown in different sizes and styles now share a single card with a photo, name, price and an Add to cart button. Where the original had no search, there is now a search box in the header that filters as you type. The fonts and colors that used to change from box to box are now one font, three text sizes and a small palette of Norwegian flag red and navy.
 
 The page also has a few extras. Surprise me button opens a random product, a nod to the original, where you never know what you will find. The category bar shows how many products are in each category, and a sort menu offers Featured, price low to high and price high to low. If nothing matches a search, a friendly empty state appears with a Clear search button.
+
+### Product Page
+
+On the original site, product information was buried in long blocks of text, with the details in a different place on every page. Every product page now has the same layout: a large photo, then the category, name, price and description, a large `Add to cart` button and a Specifications table. The original also mixed languages on the same page. Now the interface, the product text and the labels in the specifications table all follow the chosen language, so “Battery” becomes “Batteri” in Norwegian. The original was also very confusing on how to get back to the original website where as here we have a `Back to the shop` button in the same place for each product page.
 
 # Critique and redesign exploration
 
