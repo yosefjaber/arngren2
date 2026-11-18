@@ -63,7 +63,35 @@ On the original site, product information was buried in long blocks of text, wit
 
 ## Redesign research, data, planning
 
-### 1) Time and Error Study
+### 1) Performance Metric - Time and Error Study
+
+We asked four people, Jeremy Muglia, Moazzam Nafees, Gavin Amshoff and Raphael Ebdon (they agreed to have their names listed), to find information on one e-bike and one toy RC vehicle. We repeated this on three websites: arngren.net, ebay.com and our redesign. Times are in minutes:seconds, and DNF means the person did not finish. These are our results.
+
+| Test Subject | arngren.net | ebay.com | redesigned arngren.net |
+| :--- | :--- | :--- | :--- |
+| Jeremy Muglia | 4:09 | 0:13 | 0:14 |
+| Moazzam Nafees | 3:18 | 0:28 | 0:12 |
+| Gavin Amshoff | DNF | 0:24 | 0:25 |
+| Raphael Ebdon | 2:32 | 0:21 | 0:30 |
+| **Average** | 3:20 (3 of 4 finished) | 0:22 | 0:20 |
+
+#### arngren.net Takeaways
+
+For arngren.net, most people clicked around aimlessly until they found one of each. One user tried to use a search box they found, but it took forever to load and ultimately crashed the website. Another user left the experiment out of frustration.
+
+#### eBay Takeaways
+
+All users used the search box on ebay.com. It was an easy and quick way to search for both "ebikes" and "RC vehicles", and it turned out to be effective.
+
+#### Redesigned arngren.net Takeaways
+
+Two users used the quick filters to look for `Electric Bikes` and `Robots & RC`. This turned out to be an effective way to quickly find items that users already intend to look for.
+
+![Quick filter buttons on the redesigned site](image-7.png)
+
+The other two users tried the search box, but our search matches the words in a product's name and description. None of the e-bikes has "ebike" in its name (they are called things like "FreeGo Fat Bike 1000 W"), so nothing showed up. Those users then switched to the quick filters. For "RC", the search did match the RC vehicles correctly.
+
+
 
 ### 2) Jakob's Ten Usability Heuristics
 
