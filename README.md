@@ -113,19 +113,22 @@ The other two users tried the search box, but our search matches the words in a 
 ![Sketch 1](sketch-1.jpg)
 ![Sketch 2](sketch-2.jpg)
 
+### Figma Sketches
+- https://www.figma.com/design/vZecK8VdgpXwHvcaA920yL/Arngren-Storefront-Concepts?node-id=10-2&p=f&t=WytT0eNrl32fp4kd-0
+
+We then asked 4 people what they liked and didn't like about our hand drawn and figma sketches and these were the results:
+
 **The good**
 - Like that it has a seach bar now
 - Grouping is nice.
-- Filters
+- Filters are good.
 - The product page is simple: image, price, description and a cart button only.
 - The checkout page clearly shows the total and the pay button.
+- Really liked the dark mode figma drawing but seems a little too dark
 
 **What could be improved**
 - Might want a spec table.
 - The "Added to cart" popup covers the whole page. There's better ways to do this
 - Vague Catagories
-- The small thumbn`ai`ls inside of each category box may be too small to recognize.
+- The small thumbnails inside of each category box may be too small to recognize.
 - The "Welcome!" banner takes up space at the top that could show products instead.
-
-## Figma
-- https://www.figma.com/design/vZecK8VdgpXwHvcaA920yL/Arngren-Storefront-Concepts?node-id=10-2&p=f&t=WytT0eNrl32fp4kd-0
