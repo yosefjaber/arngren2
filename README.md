@@ -55,10 +55,46 @@ The page also has a few extras. Surprise me button opens a random product, a nod
 
 # Critique and redesign exploration
 
-## UI that fits
+## UI to Fix
+
+[arngren.net](https://arngren.net) ([Wayback Machine archive](https://web.archive.org/web/*/arngren.net))
 
 ## Redesign research, data, planning
 
+### 1) Time and Error Study
+
+### 2) Jakob's Ten Usability Heuristics
+
+| Heuristic | Problems on the original site |
+|---|---|
+| Visibility of system status | No stock information, pages may or may not load. |
+| Match between system and real world | Mixed Norwegian and English, and no coherent organization of products. |
+| User control and freedom | No search (on first glance, need to find it), filter, sort or breadcrumbs, and the page needs sideways scrolling. |
+| Consistency and standards | MANY different font color and size combinations. |
+| Error prevention | Bad links, and no indication of items that may or may not be discontinued. |
+| Recognition rather than recall | Products scattered across the page, can't find what I'm looking for 30 seconds after I found it. |
+| Flexibility and efficiency of use | Everything is hard coded. Nothing is easy to find. |
+| Aesthetic and minimalist design | Way too many images (and many more GIFs) scattered across the page. Images may or may not have text on them or around them. Where the accompanying text is is also left random. |
+| Help users recognize, diagnose and recover from errors | The site often fails to load, and we only find out after a full timeout error page. |
+| Help and documentation | Hard to find the way to order in the first place. Additionally, the shipping and payment details are only linked, and there is no FAQ or product detail. |
+
 ## Sketch and feedback
+
+![Sketch 1](sketch-1.jpg)
+![Sketch 2](sketch-2.jpg)
+
+**The good**
+- Like that it has a seach bar now
+- Grouping is nice.
+- Filters
+- The product page is simple: image, price, description and a cart button only.
+- The checkout page clearly shows the total and the pay button.
+
+**What could be improved**
+- Might want a spec table.
+- The "Added to cart" popup covers the whole page. There's better ways to do this
+- Vague Catagories
+- The small thumbnails inside of each category box may be too small to recognize.
+- The "Welcome!" banner takes up space at the top that could show products instead.
 
 ## Feedback
