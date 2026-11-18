@@ -2,7 +2,7 @@
 
 Live Website link - https://jaberui.duckdns.org/proj2/
 
-Video Demo - [Video Demo](<2026-11-17 23-24-06.mkv>)
+Video Demo - [Video Demo](<demo.mp4>)
 
 # Documentation
 We rebuilt arngren.net, a famously bad website that is run by Frithjof Arngren. The website is made to sell e-bikes, cars, scooters, and anything else he feels like selling. The pages are built from hundreds of absolutely placed boxes, animated GIFs, and tons of differnt fonts. Our redesign ripped 1100 pictures from the original website before filtering out all the ones that were unusable to a point where we have 240 different products. We have also added new features like a cart, english translation, and dark mode. This is all while making the website much more readable and understanable.
