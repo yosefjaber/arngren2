@@ -86,7 +86,8 @@ Checkout
 - Might want a spec table.
 - The "Added to cart" popup covers the whole page. There's better ways to do this
 - Vague Catagories
-- The small thumbnails inside of each category box may be too small to recognize.
+- The small thumbn`ai`ls inside of each category box may be too small to recognize.
 - The "Welcome!" banner takes up space at the top that could show products instead.
 
-## Feedback
+## Figma
+- https://www.figma.com/design/vZecK8VdgpXwHvcaA920yL/Arngren-Storefront-Concepts?node-id=10-2&p=f&t=WytT0eNrl32fp4kd-0
